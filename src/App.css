@@ -1,6 +1,110 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body {
+  font-family: 'Poppins', sans-serif;
+  min-width: 320px;
+}
+
+.container-xxl {
+  max-width: 1270px;
+}
+
+.navbar-brand {
+  margin-right: 88px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.slide-text {
+  font-size: calc(30px + 1.5vw);
+}
+
+.carousel-caption {
+  bottom: auto;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  background-color: #fff;
+  width: 18px;
+  height: 18px;
+  margin-top: 1px;
+}
+
+.brands-inner {
+  padding: 90px;
+}
+
+.card {
+  width: 31%;
+}
+
+.footer-inner::before {
+  display: block;
+  content: '';
+  height: 1px;
+  opacity: 0.4;
+  background: #BEBCBD;
+  margin-bottom: 45px;
+}
+
+@media (min-width: 1200px) {
+  .slide-text {
+    font-size: 78px;
+  }
+
+  .carousel-caption .btn {
+    font-size: 24px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-first-group {
+    width: 80%;
+  }
+
+  .brands-inner {
+    padding: 40px 0;
+  }
+
+  .card {
+    width: 85%;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-inner .ms-auto {
+    margin-right: 50px;
+    padding-bottom: 30px;
+  }
+
+  .slide-text {
+    font-size: 18px;
+  }
+
+  .slide-button {
+    display: none;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+}
+
+@media (min-width: 577px) {
+  .card-first-group {
+    width: 100%;
+  }
 }
