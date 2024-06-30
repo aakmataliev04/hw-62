@@ -13,19 +13,19 @@ function App() {
   return (
     <>
       <header>
-        <Toolbar />
+        <Toolbar/>
       </header>
-    <main>
-      <Routes>
-        <Route path={'/'} element={<Home/>}></Route>
-        <Route path={'/men'} element={<Men />}></Route>
-        <Route path={'/women'} element={<Women />}></Route>
-        <Route path={'/combos'} element={<Combos />}></Route>
-        <Route path={'/joggers'} element={<Joggers />}></Route>
-      </Routes>
+      <main>
+        <Routes>
+          <Route path={'/'} element={<Home/>}></Route>
+          <Route path={'/men'} element={<Men/>}></Route>
+          <Route path={'/women'} element={<Women/>}></Route>
+          <Route path={'/combos'} element={<Combos/>}></Route>
+          <Route path={'/joggers'} element={<Joggers/>}></Route>
+        </Routes>
 
-    </main>
-      <Footer />
+      </main>
+      <Footer/>
     </>
   );
 };

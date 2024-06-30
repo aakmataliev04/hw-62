@@ -6,7 +6,7 @@ import card4 from '../../assets/uploads/women-card-4.jpg';
 
 const Women = () => {
   return (
-    <div className="women-cloth-block" style={{ margin: '120px 0' }}>
+    <div className="women-cloth-block" style={{margin: '120px 0'}}>
       <div className="container-xxl">
         <h3
           className="lh-1 mt-0 ps-3 fs-2 fw-bold men-cloth-tittle"
@@ -25,9 +25,9 @@ const Women = () => {
               <a
                 href="#"
                 className="card-body p-0 py-3 text-decoration-none d-flex"
-                style={{ color: '#191919' }}
+                style={{color: '#191919'}}
               >
-                <h5 className="fs-6 fw-semibold" style={{ color: '#191919' }}>
+                <h5 className="fs-6 fw-semibold" style={{color: '#191919'}}>
                   Hoodies & Sweetshirt
                 </h5>
                 <i className="bi bi-arrow-right ms-auto"></i>
@@ -41,9 +41,9 @@ const Women = () => {
               <a
                 href="#"
                 className="card-body p-0 py-3 text-decoration-none d-flex"
-                style={{ color: '#191919' }}
+                style={{color: '#191919'}}
               >
-                <h5 className="fs-6 fw-semibold" style={{ color: '#191919' }}>
+                <h5 className="fs-6 fw-semibold" style={{color: '#191919'}}>
                   Coats & Parkas
                 </h5>
                 <i className="bi bi-arrow-right ms-auto"></i>
@@ -57,9 +57,9 @@ const Women = () => {
               <a
                 href="#"
                 className="card-body p-0 py-3 text-decoration-none d-flex"
-                style={{ color: '#191919' }}
+                style={{color: '#191919'}}
               >
-                <h5 className="fs-6 fw-semibold" style={{ color: '#191919' }}>
+                <h5 className="fs-6 fw-semibold" style={{color: '#191919'}}>
                   Tees & T-Shirt
                 </h5>
                 <i className="bi bi-arrow-right ms-auto"></i>
@@ -73,9 +73,9 @@ const Women = () => {
               <a
                 href="#"
                 className="card-body p-0 py-3 text-decoration-none d-flex"
-                style={{ color: '#191919' }}
+                style={{color: '#191919'}}
               >
-                <h5 className="fs-6 fw-semibold" style={{ color: '#191919' }}>
+                <h5 className="fs-6 fw-semibold" style={{color: '#191919'}}>
                   Boxers
                 </h5>
                 <i className="bi bi-arrow-right ms-auto"></i>
